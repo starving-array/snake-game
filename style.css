@@ -1,38 +1,45 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: beige;
 }
 
-
-#gameCanvas{
-    background-color: white;
+#gameCanvas {
+  background-color: white;
 }
 canvas {
-    border: 1px solid #000;
-    margin-bottom: 20px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
 }
 
 #leaderboard {
-    width: 200px;
-    min-height: 20vh;
-    background-color: azure;
-    margin: 10px;
+  width: 400px;
+  min-height: 20vh;
+  background-color: azure;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 2px 20px black ;
+}
+#leaderboard h2 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
 }
 
 #scoresList {
-    list-style-type: decimal;
-    padding-left: 20px;
+  list-style-type: decimal;
+  padding-left: 20px;
 }
 
 #playerNameModal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #playerNameModal input {
-    margin: 10px 0;
+  margin: 10px 0;
 }
