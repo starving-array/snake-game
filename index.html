@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game with Leaderboard</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Snake Game</h1>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div id="playerNameModal">
+      <label for="playerName">Enter your name: </label>
+      <input type="text" id="playerName" name="playerName" required />
+      <button id="startGame">Start Game</button>
+    </div>
+    <div id="leaderboard">
+      <h2>Leaderboard</h2>
+      <p id="scoresList"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

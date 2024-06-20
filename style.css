@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+
+
+#gameCanvas{
+    background-color: white;
+}
+canvas {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+#leaderboard {
+    width: 200px;
+    min-height: 20vh;
+    background-color: azure;
+    margin: 10px;
+}
+
+#scoresList {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+#playerNameModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#playerNameModal input {
+    margin: 10px 0;
+}
